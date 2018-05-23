@@ -1,0 +1,56 @@
+﻿<%@ Master Language="VB" CodeFile="UserMasterPage.master.vb" Inherits="user_UserMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Master Page - User</title>
+    <link href="../css/UserStyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+        			<div class="substrate top-substrate">
+                <img src="../images/site_bg.jpg" class="fullwidth" alt="" />			</div>
+
+        <div class="header" align="center">
+        <div class="logo">
+		    <a href="http://www.amazonkinglodge.com" rel="home">
+                <img src="../images/ak-logo-1.png" alt="Amazon King Lodge | Your Lodge in the Peruvian Jungle" />
+		    </a>
+	    </div>
+        <nav>
+            <ul>
+                <li><a href="http://www.amazonkinglodge.com/">Home</a></li>
+                <li><a href="http://www.amazonkinglodge.com/all-rooms/">Our Rooms</a></li>
+                <li><a href="http://www.amazonkinglodge.com/about-us/">About us</a>
+                    <ul>
+                        <li><a href="http://www.amazonkinglodge.com/about-us/iquitos-peru/">Iquitos, Peru</a></li>
+                        <li><a href="http://www.amazonkinglodge.com/about-us/discount-for-groups/">Discount for Groups</a></li>
+                        <li><a href="http://www.amazonkinglodge.com/about-us/terms-and-conditions/">Terms &#038; Conditions</a></li>
+                    </ul>
+                </li>
+                <li><a href="http://www.amazonkinglodge.com/allgalleries/">Media Gallery</a>
+                        <ul><li><a href="http://www.youtube.com/amazonkinglodge">Youtube</a></li></ul>
+                </li>
+                <li><a href="http://www.amazonkinglodge.com/tours/">Tours</a></li>
+                <li><a href="http://www.amazonkinglodge.com/faq/">FAQ</a></li>
+                <li><a href="http://www.amazonkinglodge.com/contact/">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <form id="form1" runat="server">
+    <div class="content" align="center">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+        <div class="footer" align="center">
+        <div class="copyright">Amazon King International, LLC | Amazon King S.A.C | 1985 - 2014</div>
+        <div class="links">
+            
+        </div>
+    </div>
+</body>
+</html>

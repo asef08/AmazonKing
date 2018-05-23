@@ -1,0 +1,124 @@
+﻿
+.fullwidth {
+	display:block;
+	width:100%!important;
+	height:auto;
+}
+
+.substrate {
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	overflow:hidden;
+	width:100%;
+    z-index:-1;
+}
+
+.top-substrate,
+.section-substrate {
+	top:0;
+}
+
+.bottom-substrate {
+	bottom:0;
+}
+
+.header {
+    align-self: center;
+    margin-right: 6em;
+    margin-left: 6em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    display: inline-block;
+
+}
+
+nav {
+    margin-top: 2em;
+    float: right;
+
+}
+
+.logo {
+    float: left;
+    border: 2px;
+    padding: -1.85em;
+}
+
+.header a {
+    color: #fff;
+    display: block;
+    padding: 0.2em 9px;
+    line-height: 1.5em;
+    font-family: Signika;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.header a span {
+    color: #fff;
+}
+
+.header ul {
+    list-style: none;
+    margin: 0;
+}
+
+.header nav ul li {
+      float: left;
+      margin: 0 0 0 6px;
+      position: relative;
+}
+
+.header nav ul li a:hover {
+    background-color: white;
+    color: #51d324;
+}
+
+.header ul ul {
+    display: none;
+    position: absolute;
+    top: 2.6em;
+
+}
+
+.header ul ul a {
+    color: #444;
+    padding: 6px 10px;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.header ul ul li {
+    background: #fff;
+    border-bottom: 1px dotted #ddd;
+    position: relative;
+    margin: 0;
+}
+
+.header ul ul a:hover {
+    color: #FF9000;
+}
+
+.footer {
+    font-size: 0.75em;
+    color: white;
+    margin: 2em;
+}
+
+.content {
+    background: white;
+    align-items: center;
+    padding: 10px;
+}
+
+.login {
+    padding: 4px;
+    background: black;
+    color: white;
+    margin: 4px;
+    width: 300px;
+    height: 150px;
+}
